@@ -1,0 +1,50 @@
+body {
+  background-image: url("https://img.freepik.com/premium-vector/network-connection-background-abstract-style_23-2148875738.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: Arial, sans-serif;
+}
+.heading{
+  color: rgb(14, 14, 14);
+}
+
+.outerbox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 98vh;
+}
+
+form {
+  border: 3px solid brown;
+  max-width: 500px;
+  padding: 2px;
+  background-color: white;
+  box-shadow: 0 0 100px rgba(0, 0, 0, 43);
+  text-align: center;
+}
+
+.profile {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  /* margin-top: 0%; */
+  margin-bottom: 15px;
+}
+
+.login {
+  text-align: center;
+  background-color: rgb(87, 71, 147);
+  width: 462px;
+  padding: 10px;
+  text-decoration: solid;
+  color: white;
+}
+
+.forgot {
+  text-align: right;
+  margin-top: 10px;
+  text-decoration: underline;
+  color: rgb(14, 54, 165);
+}

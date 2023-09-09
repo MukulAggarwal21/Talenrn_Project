@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./sign_in.css" />
+    <title>Login Page</title>
+  </head>
+
+  <body>
+    <div class="outerbox">
+      <form action="#" method="post">
+          <div class="heading">
+            <h1>LOGIN</h1>
+          </div>
+
+          <!-- AVATAR PHOTO -->
+          <div class="profile">
+            <img
+              src="./profile.webp"
+              alt="Profile Picture"
+              height="150px"
+              width="250px"
+            />
+          </div>
+
+          <!-- USERNAME ACCESS -->
+          <label for="USERNAME">USERNAME</label><br />
+          <input
+            type="text"
+            id="USERNAME"
+            name="username"
+            placeholder="ENTER YOUR NAME"
+            required
+          /><br /><br />
+
+          <!-- EMAIL ACCESS -->
+          <label for="EMAIL-ID">EMAIL-ID</label><br />
+          <input
+            type="email"
+            id="EMAIL-ID"
+            name="email"
+            placeholder="ENTER YOUR EMAIL"
+            required
+          /><br /><br />
+
+          <!-- Contact NUMBER -->
+          <label for="CONTACT NUMBER">Contact NUMBER</label><br />
+          <input
+            type="tel"
+            id="CONTACT NUMBER"
+            name="contact"
+            placeholder="+91 ****"
+            required
+          /><br /><br />
+
+          <!-- PASSWORD INPUT -->
+          <label for="PASSWORD">PASSWORD</label><br />
+          <input
+            type="password"
+            id="PASSWORD"
+            name="password"
+            placeholder="ENTER YOUR PASSWORD"
+            required
+          /><br /><br />
+
+          <!-- REMEMBER ME COLUMN -->
+          <input type="checkbox" id="remember" name="remember" />
+          <label for="remember">Remember Me</label><br /><br />
+
+          <!-- CANCEL BUTTON -->
+          <button type="reset" class="cancelbtn">Cancel</button>
+
+          <!-- FORGOT PASSWORD -->
+          <div class="forgot">
+            <u><label for="ForgotPassword">Forgot Password?</label></u
+            ><br /><br />
+
+            <!-- LOGIN BUTTON -->
+            <button type="submit" class="login" autofocus>Login</button>
+          </div>
+        </fieldset>
+      </form>
+    </div>
+  </body>
+</html>
